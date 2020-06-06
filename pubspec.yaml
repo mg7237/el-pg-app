@@ -27,7 +27,7 @@ dependencies:
   get_it: ^1.0.3+1
   http: ^0.12.0+2
   shared_preferences: ^0.5.3+1
-  cached_network_image: ^1.0.0
+  cached_network_image: ^2.2.0+1
   image_picker: ^0.6.0+9
   path: ^1.6.4
   email_validator: ^1.0.0
@@ -37,7 +37,7 @@ dependencies:
   sticky_headers: ^0.1.8+1
   dotted_border: ^0.1.1
   intl: ^0.16.1
-  flutter_cupertino_date_picker: ^1.0.12
+  flutter_cupertino_date_picker: ^1.0.26
   url_launcher: ^5.2.0
   otp_count_down: ^1.0.6
   photo_view: ^0.8.2
