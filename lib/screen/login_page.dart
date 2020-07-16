@@ -265,8 +265,8 @@ class _LoginPageState extends State<LoginPage> {
                 ),
                 pageState == 2
                     ? Expanded(
-                  child: otpView(),
-                )
+                        child: otpView(),
+                      )
                     : Container(
                         decoration: BoxDecoration(boxShadow: [
                           BoxShadow(
@@ -452,7 +452,7 @@ class _LoginPageState extends State<LoginPage> {
               enabled: !showLoader,
               decoration: const InputDecoration(
                 border: const UnderlineInputBorder(),
-                hintText: 'Enter your phome number',
+                hintText: 'Enter your phoe number',
               ),
               onSaved: (value) => _loginRequestModel.phoneNumber = value,
               validator: _loginRequestModel.phoneValidate,
@@ -556,7 +556,7 @@ class _LoginPageState extends State<LoginPage> {
               ? Container()
               : Text(
                   countDownTime,
-            textScaleFactor: 1.0,
+                  textScaleFactor: 1.0,
                   textAlign: TextAlign.center,
                   style: TextStyle(
                     color: Colors.black,
