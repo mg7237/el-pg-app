@@ -37,7 +37,8 @@ dependencies:
   sticky_headers: ^0.1.8+1
   dotted_border: ^0.1.1
   intl: ^0.16.1
-  flutter_cupertino_date_picker: ^1.0.26
+  flutter_cupertino_date_picker:
+    git: https://github.com/daveleenew/flutter-cupertino-date-picker.git
   url_launcher: ^5.2.0
   otp_count_down: ^1.0.6
   photo_view: ^0.8.2
